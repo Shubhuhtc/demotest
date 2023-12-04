@@ -17,7 +17,7 @@ public class WebPageTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe"); // Set the path to your ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "./demotest/chromedriver.exe"); // Set the path to your ChromeDriver executable
         driver = new ChromeDriver();
     }
 
