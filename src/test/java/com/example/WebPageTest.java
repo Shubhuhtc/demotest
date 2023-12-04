@@ -13,11 +13,11 @@ import static org.junit.Assert.assertTrue;
 public class WebPageTest {
 
     private WebDriver driver;
-    private static final String BASE_URL = "https://example.com"; // Replace with your web page URL
+    private static final String BASE_URL = "http://18.189.30.152:8080/hello-world-maven/"; // Replace with your web page URL
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/sbagh/testing/chromedriver.exe"); // Set the path to your ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe"); // Set the path to your ChromeDriver executable
         driver = new ChromeDriver();
     }
 
@@ -40,7 +40,7 @@ public class WebPageTest {
         String pageText = element.getText();
 
         // Assert that the expected text is present on the web page
-        assertTrue(pageText.contains("Hello, World!")); // Replace with your expected text
+        assertTrue(pageText.contains("Avendus")); // Replace with your expected text
     }
 }
 
