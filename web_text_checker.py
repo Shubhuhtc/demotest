@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import sys
 
 def check_text_presence(url, target_text):
     try:
