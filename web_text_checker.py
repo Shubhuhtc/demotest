@@ -26,5 +26,7 @@ target_text = 'Avendus'
 
 if check_text_presence(url, target_text):
     print(f"The text '{target_text}' is present on the page.")
+    sys.exit(0)  # Success
 else:
     print(f"The text '{target_text}' is not present on the page.")
+    sys.exit(1)  # Failure
