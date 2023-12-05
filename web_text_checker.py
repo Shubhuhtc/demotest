@@ -23,7 +23,7 @@ def check_text_presence(url, target_text):
 
 # Example usage
 url = 'http://18.189.30.152:8080/hello-world-maven/'
-target_text = 'Avendus'
+target_text = 'HTC'
 
 if check_text_presence(url, target_text):
     print(f"The text '{target_text}' is present on the page.")
