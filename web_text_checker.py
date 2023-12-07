@@ -22,7 +22,7 @@ def check_text_presence(url, target_text):
         return False
 
 # Example usage
-url = 'http://3.129.16.206:8080/hello-world-maven/'
+url = 'http://172.208.80.251:8080/hello-world-maven/'
 target_text = 'Avendus'
 
 if check_text_presence(url, target_text):
